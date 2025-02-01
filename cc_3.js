@@ -1,33 +1,33 @@
-// Task 1: Product Price Management
-let prices = [10, 20, 30, 40, 50]; // Initialize array with 5 prices
-prices.push(60); // Add a new price
-prices.shift(); // Remove the first price
+// Task 1
+let prices = [10, 20, 30, 40, 50]; 
+prices.push(60); 
+prices.shift(); 
 console.log("Updated Price List:", prices);
-// Task 2: Modifying Customer Orders
-let orders = [2, 5, 3, 7, 4]; // Initialize array with 5 order quantities
-orders[2] += 5; // Increase the third order quantity by 5
-let totalOrders = orders.reduce((total, quantity) => total + quantity, 0); // Calculate total orders
+// Task 2
+let orders = [2, 5, 3, 7, 4]; 
+orders[2] += 5; 
+let totalOrders = orders.reduce((total, quantity) => total + quantity, 0); 
 console.log("Updated Orders:", orders);
 console.log("Total Orders:", totalOrders);
-// Task 3: Employee Performance Tracking
+// Task 3
 let employee = {
     name: "Alex Chaffee",
     role: "Developer",
     performanceScore: 85,
     isActive: true
 };
-employee.performanceScore = 90; // Update performance score
-employee.promotionEligible = employee.performanceScore > 80; // Add new property
+employee.performanceScore = 90; 
+employee.promotionEligible = employee.performanceScore > 80; 
 console.log("Updated Employee:", employee);
-// Task 4: Customer Feedback Records
+// Task 4
 let feedback = [
     { customerName: "Alice", feedbackText: "Great service!", rating: 5 },
     { customerName: "Bob", feedbackText: "Good experience.", rating: 4 },
     { customerName: "Charlie", feedbackText: "Could be better.", rating: 3 }
 ];
-feedback.push({ customerName: "Diana", feedbackText: "Amazing!", rating: 5 }); // Add new feedback
+feedback.push({ customerName: "Diana", feedbackText: "Amazing!", rating: 5 }); 
 console.log("Feedback List:", feedback);
-// Task 5: Inventory Management System
+// Task 5
 let inventory = {
     itemName: "Laptop",
     stockCount: 10,
